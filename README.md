@@ -1,7 +1,7 @@
 KISS.Animate
 ============
 
-KISS.Animate is plugin for sliding animations based on JQuery and the best code structure practices with easy api 
+KISS.Animate is plugin for sliding animations based on JQuery and the best code structure practices with simple api 
 
 examples:
 <a href="http://jsfiddle.net/daogurtsov/8cGsq/1/">1. with code</a>
