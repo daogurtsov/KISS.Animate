@@ -2,8 +2,13 @@ KISS.Animate
 ============
 
 KISS.Animate is plugin for sliding animations based on JQuery and the best code structure practices with simple api 
-Prerequisites: jquery 1.6 or higher.
-examples:
+Prerequisites: 
+jquery 1.6 or higher.
+
+Main assumption for this plugin is that content already fetched and added to dom, this plugin provides animation for it.
+
+Examples:
+
 <a href="http://jsfiddle.net/daogurtsov/8cGsq/14/">1. with code</a>
 <a href="http://jsfiddle.net/daogurtsov/8cGsq/14/embedded/result/">2.full screen</a>
 
@@ -20,6 +25,8 @@ $.fn.kissAnimate.options = {
         transition: 'fadeToggle', // animation affect name ( jquery API animations method name )
         splitter: 'split', // adds class to first content entitty, present for wrapper
         css: true, // sets slides on position:absolute and display:none
+        // if you expirience layout glitches on page reload, set this option on false and add this css to your style :
+        // use class from wrapSlideWith element.  .className { position:absolute; display:none; }
         onComplete: null // action listener, fired on animation complere, can be any custom function
     };
 /*
