@@ -1,11 +1,17 @@
 .widget_cycling_posts {
-position: relative;
-display: block;
-min-height: 380px;
+    position: relative;
+    display: block;
+    min-height: 380px;
 }
 .post_list li {
-overflow: hidden;
-padding: 12px 0 11px;
-margin: 0;
+    overflow: hidden;
+    padding: 12px 0 11px;
+    margin: 0;
+}
+
+ul.ul-wrap>li{
+    float:left;
+    width: 33%;
+    display:block;
 }
 
