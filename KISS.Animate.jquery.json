@@ -1,0 +1,35 @@
+{
+    "name": "KISS.Animate",
+    "title": "Keep It Simple Stupid Animate",
+    "description": "KISS.Animate is plugin for sliding animations based on JQuery and the best code structure practices with simple api",
+    "keywords": [
+        "slides",
+        "animation",
+        "simple",
+        "effect"
+    ],
+    "version": "0.1.1",
+    "author": {
+        "name": "Dmitry Ogurtsov",
+        "url": "https://github.com/daogurtsov/KISS.Animate/blob/master/README.md"
+    },
+    "maintainers": [
+        {
+            "name": "Dmitry Ogurtsov",
+            "email": "daogurtsov@gmail.com",
+            "url": "https://github.com/daogurtsov"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/daogurtsov/KISS.Animate/MIT-LICENSE.txt"
+        }
+    ],
+    "homepage": "https://github.com/daogurtsov/KISS.Animate",
+    "docs": "https://github.com/daogurtsov/KISS.Animate",
+    "download": "https://github.com/daogurtsov/KISS.Animate/archive/master.zip",
+    "dependencies": {
+        "jquery": ">=1.6"
+    }
+}
