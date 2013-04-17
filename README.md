@@ -29,6 +29,7 @@ $.fn.kissAnimate.options = {
         // use class from wrapSlideWith element.  .className { position:absolute; display:none; }
         onComplete: null // action listener, fired on animation complere, can be any custom function
     };
+    
 /*
 * In this case speed < animeSpeed x 2 + delay, in toggle methodes it will produce 
 * semi - transparency between prev / next slide
