@@ -19,7 +19,7 @@ $.fn.kissAnimate.options = {
         wrapSlideWith:'<div class="animate-wrapper"></div>', // this wrapper splits content on slides
         transition: 'fadeToggle', // animation affect name ( jquery API animations method name )
         splitter: 'split', // adds class to first content entitty, present for wrapper
-        css: true,
+        css: true, // sets slides on position:absolute and display:none
         onComplete: null // action listener, fired on animation complere, can be any custom function
     };
 /*
