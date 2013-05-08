@@ -13,6 +13,9 @@ Main assumption for this plugin is that content already fetched and added to dom
 
 <a href="http://jsfiddle.net/daogurtsov/8cGsq/14/embedded/result/">2.full screen</a>
 
+##Enjoy it with CDNJS:
+<a href="//cdnjs.cloudflare.com/ajax/libs/kiss.animate/0.1.2/kiss.animate.min.js">//cdnjs.cloudflare.com/ajax/libs/kiss.animate/0.1.2/kiss.animate.min.js</a>
+
 ###API
 
         $('ul.post_list.first').kissAnimate(); //runs with defaults
