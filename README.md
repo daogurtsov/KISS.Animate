@@ -31,7 +31,8 @@ Main assumption for this plugin is that content already fetched and added to dom
                 transition: 'fadeToggle', // animation affect name ( jquery API animations method name )
                 splitter: 'split', // adds class to first content entitty on each slide, anchor for wrapper element
                 css: true, // sets slides on position:absolute and display:none
-                onComplete: null // action listener, fired on animation complete, can be any custom function
+                onComplete: null, // action listener, fired on animation complete, can be any custom function
+                pause: true // pause current slide on hover 
         };
 
 if you expirience layout glitches on page reload, set css option on false and add this css to your style :
