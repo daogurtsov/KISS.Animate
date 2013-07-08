@@ -9,11 +9,11 @@ Main assumption for this plugin is that content already fetched and added to dom
 
 ##Examples:
 
-<a href="http://jsfiddle.net/daogurtsov/8cGsq/14/">1. with code</a>
+<a href="http://jsfiddle.net/daogurtsov/8cGsq/23/">1. with code</a>
 
-<a href="http://jsfiddle.net/daogurtsov/8cGsq/14/embedded/result/">2.full screen</a>
+<a href="http://jsfiddle.net/daogurtsov/8cGsq/23/embedded/result/">2.full screen</a>
 
-##Enjoy it with CDNJS:
+##Enjoy it with CDNJS (previous version without pause:
 <a href="//cdnjs.cloudflare.com/ajax/libs/kiss.animate/0.1.2/kiss.animate.min.js">//cdnjs.cloudflare.com/ajax/libs/kiss.animate/0.1.2/kiss.animate.min.js</a>
 
 ###API
